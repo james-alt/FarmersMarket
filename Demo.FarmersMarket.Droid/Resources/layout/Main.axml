@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewFlipper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <EditText
+            android:id="@+id/zipCodeText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:hint="Zip Code" />
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Search for Markets" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ListView
+            android:id="@+id/List"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+        <TextView
+            android:id="@+id/addressText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ndroid:layout_marginBottom="10dp" />
+        <TextView
+            android:id="@+id/productsText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            ndroid:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/scheduleText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            ndroid:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</ViewFlipper>
